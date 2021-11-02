@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Order /> renders correctly 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "top",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#1c2128",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 0,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 20,
+          "marginTop": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#eaebf9",
+            "fontSize": 32,
+          },
+          undefined,
+        ]
+      }
+    >
+      Products
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 45,
+        }
+      }
+      testID="order-button"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#00b589",
+              "borderBottomLeftRadius": 18,
+              "borderBottomRightRadius": 18,
+              "borderTopLeftRadius": 18,
+              "borderTopRightRadius": 18,
+              "height": 18,
+              "justifyContent": "center",
+              "minWidth": 18,
+              "paddingBottom": 0,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+              "paddingTop": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#eaebf9",
+                "fontSize": 12,
+              },
+              undefined,
+            ]
+          }
+        >
+          0
+        </Text>
+      </View>
+      <Text />
+    </View>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#eaebf9",
+          "fontSize": 14,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#00b589",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          },
+          undefined,
+        ]
+      }
+    >
+      Active Package: 
+      1
+    </Text>
+      |  
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#00b589",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          },
+          undefined,
+        ]
+      }
+    >
+      Packed Products: 
+      0
+    </Text>
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#eaebf9",
+          "fontSize": 14,
+        },
+        undefined,
+      ]
+    }
+  >
+    Tap on a product to add it to the package.
+  </Text>
+  <RCTScrollView
+    data={Array []}
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "marginTop": 10,
+        },
+        undefined,
+      ]
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View />
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;
+
+exports[`<Order /> renders correctly without items 1`] = `
+<RNCSafeAreaView
+  edges={
+    Array [
+      "top",
+    ]
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#1c2128",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "paddingBottom": 0,
+        "paddingLeft": 15,
+        "paddingRight": 15,
+        "paddingTop": 0,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 20,
+          "marginTop": 20,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#eaebf9",
+            "fontSize": 32,
+          },
+          undefined,
+        ]
+      }
+    >
+      Products
+    </Text>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 40,
+          "justifyContent": "center",
+          "opacity": 1,
+          "width": 45,
+        }
+      }
+      testID="order-button"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#00b589",
+              "borderBottomLeftRadius": 18,
+              "borderBottomRightRadius": 18,
+              "borderTopLeftRadius": 18,
+              "borderTopRightRadius": 18,
+              "height": 18,
+              "justifyContent": "center",
+              "minWidth": 18,
+              "paddingBottom": 0,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+              "paddingTop": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+              "zIndex": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#eaebf9",
+                "fontSize": 12,
+              },
+              undefined,
+            ]
+          }
+        >
+          0
+        </Text>
+      </View>
+      <Text />
+    </View>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#eaebf9",
+          "fontSize": 14,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#00b589",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          },
+          undefined,
+        ]
+      }
+    >
+      Active Package: 
+      1
+    </Text>
+      |  
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#00b589",
+            "fontSize": 14,
+            "fontWeight": "bold",
+          },
+          undefined,
+        ]
+      }
+    >
+      Packed Products: 
+      0
+    </Text>
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#eaebf9",
+          "fontSize": 14,
+        },
+        undefined,
+      ]
+    }
+  >
+    Tap on a product to add it to the package.
+  </Text>
+  <RCTScrollView
+    data={Array []}
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "marginTop": 10,
+        },
+        undefined,
+      ]
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View />
+  </RCTScrollView>
+</RNCSafeAreaView>
+`;

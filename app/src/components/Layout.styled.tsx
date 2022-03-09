@@ -43,3 +43,11 @@ export const ScrollView = styled.ScrollView`
   margin-top: 10px;
   flex: 1;
 `;
+
+export const SearchInput = styled.TextInput`
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #eaebf9;
+  margin: 10px 0px;
+`
